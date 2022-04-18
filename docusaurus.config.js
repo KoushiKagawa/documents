@@ -16,6 +16,11 @@ const config = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'ja'],
+  },
+
   presets: [
     [
       'classic',
@@ -62,6 +67,14 @@ const config = {
           {
             href: 'https://github.com/KoushiKagawa/documents',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            type: 'docsVersionDropdown',
+            position: 'right',
+          },
+          {
+            type: 'localeDropdown',
             position: 'right',
           },
         ],
@@ -115,3 +128,18 @@ const config = {
 };
 
 module.exports = config;
+
+/*
+module.exports = {
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'ja'],
+    localeConfigs: {
+      en: {
+        baseUrl: '/en/'
+      },
+    },
+  },
+};
+
+*/
