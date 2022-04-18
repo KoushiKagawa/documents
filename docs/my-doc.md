@@ -8,9 +8,9 @@ slug: /my-custom-url
 ## Markdown Features
 
 ### リンク
-リンク [Create a page](/create-a-page).
+リンク [docs/intro](/docs/intro).
 
-リンク(カレントディレクトリ配下) [Create a page](./create-a-page.md).
+リンク(カレントディレクトリ配下) [docs/intro](./intro.md).
 
 ### 画像
 
