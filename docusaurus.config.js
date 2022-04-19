@@ -21,11 +21,6 @@ const config = {
     locales: ['en', 'ja'],
   },
 
-  themeConfig: {
-    metadata: [{name: 'keywords', content: 'docs, blog'}],
-    // This would become <meta name="keywords" content="cooking, blog"> in the generated HTML
-  },
-
   presets: [
     [
       'classic',
@@ -129,6 +124,9 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      metadata: [{name: 'keywords', content: 'docs, blog'}],
+      // This would become <meta name="keywords" content="cooking, blog"> in the generated HTML
+  
     }),
 };
 
