@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+title: Tutorial Intro
+description: A short description of this page
+keywords: [keywords, describing, the main topics]
 ---
 
 # Tutorial Intro
