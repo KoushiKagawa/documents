@@ -69,10 +69,12 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          /*
           {
             type: 'docsVersionDropdown',
             position: 'right',
           },
+          */
           {
             type: 'localeDropdown',
             position: 'right',
