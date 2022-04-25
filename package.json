@@ -33,5 +33,24 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.",
+  "main": "babel.config.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "textlint": "^12.1.1",
+    "textlint-rule-preset-ja-technical-writing": "^7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoushiKagawa/documents.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KoushiKagawa/documents/issues"
+  },
+  "homepage": "https://github.com/KoushiKagawa/documents#readme"
 }
