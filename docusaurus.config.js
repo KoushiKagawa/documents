@@ -47,6 +47,15 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      require.resolve('docusaurus-gtm-plugin'),
+      {
+        id: 'GTM-KB2TMTS', // GTM Container ID
+      }
+    ]
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -132,4 +141,17 @@ const config = {
     }),
 };
 
+
 module.exports = config;
+/*
+module.exports = {
+  plugins: [
+    [
+      require.resolve('docusaurus-gtm-plugin'),
+      {
+        id: 'GTM-KB2TMTS', // GTM Container ID
+      }
+    ]
+  ],
+};
+*/
